@@ -5,50 +5,240 @@
     text-align: center;
   }
 
-  .row{
+  a{
+    font-size: 1.5em;
+    font-weight: 100;
+    &, &:hover{
+
+      text-decoration: none;
+    }
+  }
+  
+  .cont{
     margin: 2em 2em;
   }
 
+  .city-name{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
   .hyderabad{
-    height: 50vh;
+    position: relative;
+    height: 30vh;
     background-image: url('../images/Hyderabad.jpg');
     background-size: cover;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-left: 50px;
+      color: #FFFFFF;
+      visibility: visible;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    }
   }
 
   .mumbai{
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/mumbai.jpg');
-    background-size: cover; 
+    background-size: cover;
+    position: relative;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      color: #FFFFFF;
+      visibility: visible;
+      left: 0;
+      right: 0;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    } 
   }
 
   .ahmedabad{
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/ahmedabad.jpg');
     background-size: cover;
+    position: relative;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      right: 0;
+      color: #FFFFFF;
+      visibility: visible;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    } 
   }
 
   .bangalore{
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/bangalore.jpg');
     background-size: cover;
+    position: relative;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      right: 0;
+      color: #FFFFFF;
+      visibility: visible;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    } 
   }
 
   .pune{
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/pune.jpg');
     background-size: cover;
+    position: relative;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      right: 0;
+      color: #FFFFFF;
+      visibility: visible;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    } 
   }
 
   .delhi{
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/delhi.jpg');
     background-size: cover;
+    position: relative;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      right: 0;
+      color: #FFFFFF;
+      visibility: visible;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    } 
   }
 
   .kolkata{
-    height: 50vh;
+    height: 30vh;
     background-image: url('../images/kolkata.jpg');
     background-size: cover;
+    position: relative;
+
+    .city-name{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      right: 0;
+      color: #FFFFFF;
+      visibility: visible;
+    }
+    ul li a {
+      visibility: hidden;
+    }
+
+    &:hover{
+      opacity: 0.7;
+      ul li a{
+        visibility: visible;
+        color: red;
+      }
+      .city-name{
+        visibility: hidden;
+      }
+    } 
   }
 }
 
