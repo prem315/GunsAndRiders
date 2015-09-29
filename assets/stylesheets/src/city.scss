@@ -1,0 +1,55 @@
+#city{
+  text-align: center;
+  
+  h2{
+    text-align: center;
+  }
+
+  .row{
+    margin: 2em 2em;
+  }
+
+  .hyderabad{
+    height: 50vh;
+    background-image: url('../images/Hyderabad.jpg');
+    background-size: cover;
+  }
+
+  .mumbai{
+    height: 50vh;
+    background-image: url('../images/mumbai.jpg');
+    background-size: cover; 
+  }
+
+  .ahmedabad{
+    height: 50vh;
+    background-image: url('../images/ahmedabad.jpg');
+    background-size: cover;
+  }
+
+  .bangalore{
+    height: 50vh;
+    background-image: url('../images/bangalore.jpg');
+    background-size: cover;
+  }
+
+  .pune{
+    height: 50vh;
+    background-image: url('../images/pune.jpg');
+    background-size: cover;
+  }
+
+  .delhi{
+    height: 50vh;
+    background-image: url('../images/delhi.jpg');
+    background-size: cover;
+  }
+
+  .kolkata{
+    height: 50vh;
+    background-image: url('../images/kolkata.jpg');
+    background-size: cover;
+  }
+}
+
+

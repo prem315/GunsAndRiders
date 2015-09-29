@@ -1,9 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>GunsAndRiders</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/stylesheets/app.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!--<script src="assets/javascripts/app.js"></script>-->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
-  <h1>prem</h1>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#land">
+            <span class="name">GunsAndRiders</span>
+            <span class="tagline"></span>
+          </a>
+
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="nav-link-container">
+        
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li><a href="#land">Sign Up</a></li>
+            <li><a href="#log-in">Log In</a></li>
+            <li><a href="#support">Find a club</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="land">
+    <div class="container">
+      <div class="box">
+        <h1>Push Past your limits, Join Today</h1>
+        <p>Find the bikers club near you, find the group and find partner.</p>
+      </div>
+
+      <div class="search-club">
+        <p>Enter your city to find nearest bikers club.</p>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Club">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="city">
+    <h2>We have a gangs of bikers from the following areas.</h2>
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="hyderabad pad"></div>
+        </div>
+        <div class="col-md-8">
+          <div class="mumbai pad"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="ahmedabad pad"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="bangalore pad"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="pune pad"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="delhi pad"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="kolkata pad"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
 </body>
 </html>

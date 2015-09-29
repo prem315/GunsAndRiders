@@ -1,0 +1,18 @@
+#land{
+  width: 100%;
+  min-height: 80vh;
+  background-image: url('../images/bikers.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+
+  .box{
+    margin: 100px auto;
+  }
+
+  .search-club{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 0.5em;
+  }
+}
